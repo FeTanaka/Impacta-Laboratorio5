@@ -5,7 +5,7 @@ fun main() {
     var idade: Int = 33
     var credito:Int = 0
 
-    credito = if (estado == "SP") {
+    credito = if (estado.uppercase() == "SP") {
         if (idade >= 25) 10000
         else 500
     } else {
