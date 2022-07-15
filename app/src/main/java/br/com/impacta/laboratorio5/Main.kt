@@ -7,7 +7,7 @@ fun main() {
 
     credito = if (estado.uppercase() == "SP") {
         if (idade >= 25) 10000
-        else 500
+        else 5000
     } else {
         if (idade >= 25) 3000
         else 0
